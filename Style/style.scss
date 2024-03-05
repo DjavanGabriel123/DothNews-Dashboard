@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(38 38 38);
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/*# sourceMappingURL=style.css.map */
+
+header {
+    padding: 1.5rem;
+    display: flex;
+    width: auto;
+    border-bottom: 1px solid rgb(82 82 82);
+
+    .logo-Esquerda {
+        width: 11rem;
+        height: 3rem;
+        margin-top: 8px;
+        margin-right: auto;
+
+        svg {
+            fill: #dcd7d7;
+            width: 11rem;
+        }
+    }
+
+    .settings {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .expand {
+        color: #dcd7d7;
+        margin-left: 20px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+}
+
+.icon-Settings {
+    width: 20px;
+    height: 20px;
+    fill: #dcd7d7;
+}
+
+button {
+    margin: 0px;
+    border: 0px;
+    width: 20px;
+    height: 0px;
+    padding: 0px;
+    vertical-align: super;
+}
+
+.img-header {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+    object-fit: cover;
+}
+
+.lado-Direito {
+    display: flex;
+    align-self: normal;
+}
+
+aside {
+    width: 13rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+
+    a {
+        background-color: rgb(51 129 255);
+        text-decoration: none;
+        color: #fff;
+        display: flex;
+        width: 105px;
+        height: 25px;
+        border-radius: 99999px;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .button-Escrever {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    nav {
+        margin-top: 20px;
+
+        span {
+            color: rgb(255, 255, 255);
+            font-size: 28px !important;
+        }
+
+        .icons-Lateral {
+            display: flex;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            color: rgb(255, 255, 255);
+            font-weight: 500;
+            border-bottom: 1px solid rgb(82 82 82);
+        }
+    }
+}
